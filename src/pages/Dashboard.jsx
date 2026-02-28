@@ -204,7 +204,7 @@ const Dashboard = ({ setCurrentPage })=> {
       Join thousands of students collaborating, sharing resources, and improving together.
     </p>
     <div className="mt-10 flex flex-col sm:flex-row justify-center gap-6">
-      <button className="px-10 py-4 bg-white text-indigo-600 font-semibold rounded-xl hover:bg-gray-200 transition duration-300">
+      <button onClick={() => setCurrentPage("home")} className="px-10 py-4 bg-white text-indigo-600 font-semibold rounded-xl hover:bg-gray-200 transition duration-300">
         Get Started Now →
       </button>
       <button className="px-10 py-4 border border-white text-white font-semibold rounded-xl hover:bg-white hover:text-indigo-600 transition duration-300">
