@@ -59,17 +59,16 @@ PeerBridge provides a **centralized and structured platform** to solve these cha
 # 📂 Project Structure
 
 src/
-│
 ├── components/
-│   ├── Navbar.jsx
-│   └── Footer.jsx
+│ ├── Navbar.jsx
+│ └── Footer.jsx
 │
 ├── pages/
-│   ├── Dashboard.jsx
-│   ├── UserDashboard.jsx
-│   ├── Resources.jsx
-│   ├── Tutors.jsx
-│   └── Discussions.jsx
+│ ├── Dashboard.jsx
+│ ├── UserDashboard.jsx
+│ ├── Resources.jsx
+│ ├── Tutors.jsx
+│ └── Discussions.jsx
 │
 ├── App.jsx
 └── main.jsx
